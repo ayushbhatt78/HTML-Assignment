@@ -1,0 +1,83 @@
+
+body {
+  background-color: #344a72;
+  font-family: "Roboto", sans-serif;
+}
+input[type="text"]{
+    width: 130%;
+    height: 30px;
+    border-radius: 7px;
+}
+.signup-box {
+  width: 460px;
+  height: 900px;
+  margin: auto;
+  background-color: white;
+  border-radius: 3px;
+}
+
+.login-box {
+  width: 360px;
+  height: 280px;
+  margin: auto;
+  border-radius: 3px;
+  background-color: white;
+}
+
+h1 {
+  background-color: #20b2aa;
+  color: white;
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+select{
+    background-color: green;
+    color: white;
+    width: 130%;
+    margin: 5px;
+    height: 40px;
+    border-radius: 7px;
+}
+h4 {
+  text-align: center;
+}
+
+form {
+  width: 300px;
+  margin-left: 20px;
+}
+
+form label {
+  display: flex;
+  margin-top: 20px;
+  font-size: 18px;
+}
+input[name="optradio1"]{
+   margin-left: 160px;
+}
+.ifile{
+    color: black;
+    display: inline-block;
+}
+input[type="file"]{
+    width: 130%;
+    margin: 10px;
+    background-color: cornflowerblue;
+    display: block;
+}
+.signup-box .bt-btn {
+height: 130px;
+width: 440px;
+margin-left: 0px;
+border-width: 2px;
+}
+.signup-box .bt-btn button{
+    color: white;
+    height: 30px;
+    margin-top: 30px;
+    margin-left: 350px;
+    background-color: green;
+    bottom: 200px;
+}
